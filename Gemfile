@@ -51,6 +51,8 @@ group :test, :development do
   gem "capybara"
   gem "database_cleaner"
   gem "selenium-webdriver", '>=2.45.0.dev3'
+  gem 'teaspoon'
+	gem 'phantomjs'
 end
 
 gem "foreman"
